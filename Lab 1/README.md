@@ -3,9 +3,9 @@
 _This project is to be done in teams of 2._
 
 **NAME OF BOTH COLLABORATOR(S) HERE**
-
+Jindi Chai(jc3892) & Yilin Wu(yw2895)
 **THE MASTERWORK YOU DREW FROM THE HAT:**
-
+The Ambient Umbrella
 ---
 
 One way to understand greatness is to look to the greats. Just as painters learn
@@ -92,6 +92,16 @@ the interaction*:
 **Describe your masterwork here, in your own words. What is the core interaction
 someone would recognize it by?**
 
+- What inputs are available to the user? What responses does the work give?
+The user does not need to actively give any input. The umbrella automatically gets weather information from the internet. If it shows that it is raining locally, the handle will light up to remind the user to bring the umbrella. This simple reminder saves the user’s effort because they do not need to actively check the weather to decide whether to bring an umbrella.
+- Who is present, and how does the piece color the relationships between them?
+The user, the umbrella, and weather information are involved. This product changes the umbrella from a passive tool into an object that can actively provide information. It brings more convenience to the user’s daily life by giving useful information directly through an everyday object.
+- What is the piece famous for? What are its strengths and its weaknesses?
+This project explores how the internet and digital information can be integrated into everyday objects and tools to make people’s lives more convenient.
+**Strengths:** It is intuitive and the interaction is simple. When the umbrella lights up, it means it is raining and the user should bring it. Different types of light can also show different rain conditions.
+**Weaknesses:** The weather forecast may not always be accurate or detailed enough. For example, the forecast may show that it is not raining even when it is already raining outside. The umbrella also depends on an internet connection to receive information, so without a network connection, the light may not accurately reflect the weather.
+
+
 ## Part A. Plan
 
 For your masterwork, reconstruct the interaction as a scene:
@@ -105,12 +115,23 @@ For your masterwork, reconstruct the interaction as a scene:
 
 **Describe your setting, players, activity, and goals here.**
 
+- **Setting:** Where and when does this interaction happen? (a jungle, a kitchen, a spaceship corridor, a nightclub, a harbor at night)
+Inside the user’s home, usually before going outside. Rainy days.
+- **Players:** Who is involved? Who else is present? Think through everyone in the setting, not just the primary user.
+The user, the umbrella, and the weather information.
+- **Activity:** What is happening between the players and the light?
+The umbrella lights up based on the weather, and the user sees the light and decides whether to bring it.
+- **Goals:** What is each player trying to do?
+Help the user quickly know if they need an umbrella without checking the weather themselves.
+
+
 Now **sketch a 3 storyboards** of the interaction you are recreating. (The number may depend on the thing you drew, but stretch your thinking!) They
 don't need to be beautiful, but they must capture and communicate not only the behavior of the light, but how it affects
 and the people around it. If you're new to storyboarding, read
 [this explanation](https://www.nngroup.com/articles/storyboards-visualize-ideas/).
 
 **Include pictures of your storyboards here.**
+
 
 Use the storyboards to decide what interaction to prototype.
 

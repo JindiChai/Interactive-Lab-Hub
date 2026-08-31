@@ -5,9 +5,11 @@ _This project is to be done in teams of 2._
 **NAME OF BOTH COLLABORATOR(S) HERE**
 
 Jindi Chai(jc3892) & Yilin Wu(yw2895)
+
 **THE MASTERWORK YOU DREW FROM THE HAT:**
 
 The Ambient Umbrella
+
 ---
 
 One way to understand greatness is to look to the greats. Just as painters learn
@@ -134,6 +136,9 @@ and the people around it. If you're new to storyboarding, read
 
 **Include pictures of your storyboards here.**
 
+![image](storyboard1.png)
+
+![image](storyboard2.png)
 
 Use the storyboards to decide what interaction to prototype.
 

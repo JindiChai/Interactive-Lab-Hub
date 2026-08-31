@@ -204,6 +204,8 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
+<video src="demovideo.mp4" width="320" height="240" controls></video>
+
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.

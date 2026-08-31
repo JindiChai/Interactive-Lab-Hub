@@ -223,6 +223,9 @@ https://github.com/user-attachments/assets/b38dfd7f-fa83-481b-ad16-b518f5ce7acc
 acknowledging their contributions, and credit any other influences (YouTube,
 Github, Twitter, a friend who lent you a lamp) that informed your recreation.
 
+In the class lab, Yilin and I compared and discussed The two topics we got, The Ambient Umbrella and The Heliograph. Finally, we chose the first topic. Because we think this topic is more practical and feasible.
+During The project production, I conducted research and analysis on The Ambient Umbrella product. This helps us understand and determine the main interaction and implementation methods of this product. After that, I had a lot of discussions with Yilin, completed drawing the storyboard. Based on our vision for the storyboard, We also learned to use the Tinkerbell tool to help us achieve the lighting changes we envisioned. We actually encountered a minor issue during the demo video recording. Because our products should detect the external weather and change according to it, but we cannot control the weather to turn out as we expect. We finally chose to fabricate a weather scenario (by pasting weather notes on the door and combining them with oral description and editing) to complete the recording of our demo video.
+
 ---
 
 # Part 2 — ReMastering the light

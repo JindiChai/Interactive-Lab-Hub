@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/34244012-e721-4c5d-9bdf-6e040ecb5fea
+
 # Recreating the Masters of Interactive Light
 
 _This project is to be done in teams of 2._
@@ -182,6 +186,12 @@ video feed of whichever scene you want to capture.)
 
 **Include your first attempts at recording the wizarded set-up here.**
 
+
+
+https://github.com/user-attachments/assets/e951a6b7-6fce-44f0-bd4f-3970e7a3a40e
+
+
+
 ## Part E. (optional) Costume the Device
 
 Only now should you worry about what the device looks like. Costume your phone so it reads
@@ -205,6 +215,11 @@ who doesn't should come away understanding what it's famous for. How might you i
 **Include your video here.**
 
 [[video link]](https://youtube.com/shorts/qlnZxaWv53E?feature=share)
+
+
+https://github.com/user-attachments/assets/b38dfd7f-fa83-481b-ad16-b518f5ce7acc
+
+
 
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,

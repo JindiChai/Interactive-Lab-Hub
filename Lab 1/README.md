@@ -204,7 +204,7 @@ who doesn't should come away understanding what it's famous for. How might you i
 
 **Include your video here.**
 
-[![video](demovideo.mp4)](https://youtube.com/shorts/qlnZxaWv53E?feature=share)
+[![video]](https://youtube.com/shorts/qlnZxaWv53E?feature=share)
 
 **Please indicate who you collaborated with on this lab.** Be generous in
 acknowledging their contributions, and credit any other influences (YouTube,

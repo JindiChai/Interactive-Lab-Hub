@@ -243,6 +243,7 @@ wasn't clear.
 
 https://github.com/SinaL0123/Interactive-Lab-Hub/tree/Fall2026/Lab%201
 
+https://github.com/davidzhanggg/Interactive-Lab-Hub/tree/Fall2026/Lab%201
 
 **Summarize the feedback you got from your partners here.**
 

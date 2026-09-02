@@ -245,6 +245,8 @@ https://github.com/SinaL0123/Interactive-Lab-Hub/tree/Fall2026/Lab%201
 
 https://github.com/davidzhanggg/Interactive-Lab-Hub/tree/Fall2026/Lab%201
 
+https://github.com/bh654-dev/Interactive-Lab-Hub/blob/Fall2026/Lab%201
+
 **Summarize the feedback you got from your partners here.**
 
 ## Remix, Update, or Critique the Master

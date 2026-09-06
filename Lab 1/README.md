@@ -268,6 +268,9 @@ Nice way to recreate the weather app information using handwritten notes. Could 
 
 3.I really liked the idea of using different colors and light patterns to represent different weather conditions. It makes the umbrella both useful and visually interesting, especially since users can understand the weather without checking their phones. The distinction between light rain, heavy rain, and high UV was also pretty clear. One thing I was wondering is whether the light would still be easy to notice in a very bright environment or during the daytime. Overall, I think it’s a creative and practical interaction!
 
+**Summary**
+
+Our classmates gave us a lot of useful feedback, including positive comments and some questions. The positive feedback mainly focused on our simple, intuitive interaction, which helps users quickly understand the weather and decide whether to bring an umbrella. The main questions were about when exactly the umbrella light should turn on and off. For example, should the light stay on whenever the weather suggests bringing an umbrella, or should it only turn on at a certain time or in a specific situation? They also mentioned some special situations, such as when the environment is very bright or when the umbrella is outside the user’s view, and how the umbrella could still communicate the weather information and remind the user to bring it.
 
 ## Remix, Update, or Critique the Master
 
@@ -289,6 +292,14 @@ your response engages with what your master was really doing.
 
 **Document everything here — especially the storyboard and video. Photos of the
 prototype are great too.**
+
+Based on the feedback from our classmates, we decided to add some new functions to our Ambient Umbrella.
+
+First, we want to address one of the main questions from the feedback: when exactly should the umbrella light turn on? To save energy and give the user a clearer reminder, we want the umbrella to only activate when the user approaches the door. We can add a small proximity or motion sensor, similar to the sensors used by convenience store doorbells. When the sensor detects that the user is approaching the door (likely means they are about to leave) the umbrella will activate its light. We will still use different colors to represent different weather conditions, but we also plan to add a sound notification. Sometimes the user may not be able to see the umbrella or clearly notice its color, so a simple beeping sound can remind them to pay attention to the weather or bring the umbrella. The sound and light will be triggered at the same time to make the reminder more effective.
+
+We also thought about situations where the user may want to use the umbrella's weather reminder outside of their home. Because of this, we want to add a small button to the umbrella. When the user presses the button, it will trigger the same light and sound feedback. This allows the user to quickly check the weather without opening a weather app on their phone.
+
+Another question from our classmates was whether the umbrella shows the current weather or predicts future weather. We discussed this and think that when users are about to leave, they need more than just the current weather to decide whether they should bring an umbrella for the day. Because of this, our umbrella should also work as a forecast. If the weather forecast shows a chance of rain or other conditions that require an umbrella within the next six hours, the umbrella will show the corresponding light. This can help users better decide whether they should bring an umbrella before leaving.
 
 ---
 

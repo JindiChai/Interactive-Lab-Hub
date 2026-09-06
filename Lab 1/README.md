@@ -109,7 +109,9 @@ The user, the umbrella, and weather information are involved. This product chang
 - What is the piece famous for? What are its strengths and its weaknesses?
 
 This project explores how the internet and digital information can be integrated into everyday objects and tools to make people’s lives more convenient.
+
 **Strengths:** It is intuitive and the interaction is simple. When the umbrella lights up, it means it is raining and the user should bring it. Different types of light can also show different rain conditions.
+
 **Weaknesses:** The weather forecast may not always be accurate or detailed enough. For example, the forecast may show that it is not raining even when it is already raining outside. The umbrella also depends on an internet connection to receive information, so without a network connection, the light may not accurately reflect the weather.
 
 

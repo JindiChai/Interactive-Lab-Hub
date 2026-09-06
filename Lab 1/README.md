@@ -99,10 +99,15 @@ the interaction*:
 someone would recognize it by?**
 
 - What inputs are available to the user? What responses does the work give?
+
 The user does not need to actively give any input. The umbrella automatically gets weather information from the internet. If it shows that it is raining locally, the handle will light up to remind the user to bring the umbrella. This simple reminder saves the user’s effort because they do not need to actively check the weather to decide whether to bring an umbrella.
+
 - Who is present, and how does the piece color the relationships between them?
+
 The user, the umbrella, and weather information are involved. This product changes the umbrella from a passive tool into an object that can actively provide information. It brings more convenience to the user’s daily life by giving useful information directly through an everyday object.
+
 - What is the piece famous for? What are its strengths and its weaknesses?
+
 This project explores how the internet and digital information can be integrated into everyday objects and tools to make people’s lives more convenient.
 **Strengths:** It is intuitive and the interaction is simple. When the umbrella lights up, it means it is raining and the user should bring it. Different types of light can also show different rain conditions.
 **Weaknesses:** The weather forecast may not always be accurate or detailed enough. For example, the forecast may show that it is not raining even when it is already raining outside. The umbrella also depends on an internet connection to receive information, so without a network connection, the light may not accurately reflect the weather.

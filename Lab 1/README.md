@@ -1,5 +1,4 @@
 
-
 # Recreating the Masters of Interactive Light
 
 _This project is to be done in teams of 2._
@@ -300,6 +299,12 @@ First, we want to address one of the main questions from the feedback: when exac
 We also thought about situations where the user may want to use the umbrella's weather reminder outside of their home. Because of this, we want to add a small button to the umbrella. When the user presses the button, it will trigger the same light and sound feedback. This allows the user to quickly check the weather without opening a weather app on their phone.
 
 Another question from our classmates was whether the umbrella shows the current weather or predicts future weather. We discussed this and think that when users are about to leave, they need more than just the current weather to decide whether they should bring an umbrella for the day. Because of this, our umbrella should also work as a forecast. If the weather forecast shows a chance of rain or other conditions that require an umbrella within the next six hours, the umbrella will show the corresponding light. This can help users better decide whether they should bring an umbrella before leaving.
+
+**New Storyboard**
+
+<img width="1280" height="1596" alt="64e2d29a8f7e9099bec0bcb9ccd6bfb1" src="https://github.com/user-attachments/assets/b5adfec7-aa76-4fe8-b52b-4f19efdf04fe" />
+
+<img width="1280" height="1331" alt="6d290ad13e453e3bebbe64e10f173402" src="https://github.com/user-attachments/assets/b26e586b-d7e0-4115-80a7-7f0e5fa7dcce" />
 
 ---
 

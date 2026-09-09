@@ -306,6 +306,11 @@ Another question from our classmates was whether the umbrella shows the current 
 
 <img width="1280" height="1331" alt="6d290ad13e453e3bebbe64e10f173402" src="https://github.com/user-attachments/assets/b26e586b-d7e0-4115-80a7-7f0e5fa7dcce" />
 
+
+[[video link]](https://www.youtube.com/shorts/yWRQg-sqsUA)
+
+
+
 ---
 
 

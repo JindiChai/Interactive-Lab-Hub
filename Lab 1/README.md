@@ -310,7 +310,10 @@ Another question from our classmates was whether the umbrella shows the current 
 
 <img width="470" height="680" alt="image2" src="https://github.com/user-attachments/assets/6a27b969-5f7b-4eb3-a903-d25052e47e42" />
 
-[[Demo video link]](https://www.youtube.com/shorts/yWRQg-sqsUA)
+<img width="442" height="548" alt="image3" src="https://github.com/user-attachments/assets/1c4d9521-9e20-4fae-a2cd-dbb68c6697fd" />
+
+
+**[[The Ambient Umbrella Demo video link]](https://www.youtube.com/shorts/yWRQg-sqsUA)**
 
 
 ---

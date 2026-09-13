@@ -1,6 +1,7 @@
 # Interactive Prototyping: The Clock of Pi
 **NAMES OF COLLABORATORS HERE**
-**Jindi Chai**
+
+**Jindi Chai & Yilin Wu**
 
 Does it feel like time is moving strangely during this semester?
 

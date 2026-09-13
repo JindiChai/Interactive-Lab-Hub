@@ -212,6 +212,9 @@ I want to create a clock related to dogs and dog walking. Since I have a dog mys
 
 <img width="2080" height="1668" alt="storyboard1" src="https://github.com/user-attachments/assets/3e4be031-8c1b-4766-9d79-4ccfa0b4ff3d" />
 
+**Verplank Diagrams**
+<img width="3292" height="1668" alt="verplank diagrams 48" src="https://github.com/user-attachments/assets/be4bfc1a-fc9b-4760-9c59-06c2aa46a38f" />
+
 
 
 **Put the names of the people you gave feedback to here. (Even better, add links to their repos here!)**

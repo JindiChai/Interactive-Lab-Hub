@@ -239,11 +239,12 @@ https://github.com/Afrozaktar/Interactive-Lab-Hub/blob/Fall2026/Lab%202/README.m
 2. Look at and give feedback on the Part E. for at least 3 other people in the class and get 3 people to comment on your Part E!)
 **Put the feedback for your ideas here.**
 
-1. I really like your idea of showing time through the dog’s behavior! I was wondering what would happen in special situations though—like if the dog is sick, the weather is bad, or you just can’t go for a walk that day. Maybe there could be an option to skip or postpone the walk, so the dog doesn’t keep looking anxious 😭
+
+(1) I really like your idea of showing time through the dog’s behavior! I was wondering what would happen in special situations though—like if the dog is sick, the weather is bad, or you just can’t go for a walk that day. Maybe there could be an option to skip or postpone the walk, so the dog doesn’t keep looking anxious 😭
 
 Also, are the usual walking times preset by the user? I feel like weekday and weekend schedules could be different, since people might walk their dog at different times when they don’t have work.
 
-2. I really like the dog walking clock idea because it connects time with a real daily routine instead of just showing hours and minutes. The different dog behaviors, like sleeping, waking up, and getting excited, make it easy to understand how close it is to walk time. I also think using the buttons to log walks and check walking data is a nice way to make the clock more interactive. One suggestion would be to make the dog’s different states visually very clear, maybe by using simple icons or different background colors, so users can quickly understand what each state means.
+(2) I really like the dog walking clock idea because it connects time with a real daily routine instead of just showing hours and minutes. The different dog behaviors, like sleeping, waking up, and getting excited, make it easy to understand how close it is to walk time. I also think using the buttons to log walks and check walking data is a nice way to make the clock more interactive. One suggestion would be to make the dog’s different states visually very clear, maybe by using simple icons or different background colors, so users can quickly understand what each state means.
 
 
 ## Update your Lab Hub

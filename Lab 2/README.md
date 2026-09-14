@@ -246,6 +246,8 @@ Also, are the usual walking times preset by the user? I feel like weekday and we
 
 (2) I really like the dog walking clock idea because it connects time with a real daily routine instead of just showing hours and minutes. The different dog behaviors, like sleeping, waking up, and getting excited, make it easy to understand how close it is to walk time. I also think using the buttons to log walks and check walking data is a nice way to make the clock more interactive. One suggestion would be to make the dog’s different states visually very clear, maybe by using simple icons or different background colors, so users can quickly understand what each state means.
 
+(3) I really like the progression from sleeping to awake to excited as walk time approaches. One thing I would think about is what happens if the user forgets to press the button after completing a walk. Since the clock depends on manually logging each walk, it might be useful to show a reminder or make it easy to correct a missed walk. 
+
 
 ## Update your Lab Hub
 

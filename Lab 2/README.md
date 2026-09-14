@@ -223,6 +223,8 @@ I want to create a clock related to dogs and dog walking. Since I have a dog mys
 
 https://github.com/SinaL0123/Interactive-Lab-Hub/tree/Fall2026/Lab%202
 
+https://github.com/zg375/Interactive-Lab-Hub/tree/86dc14dd4b592afbeb4f4187617a6ae88da5ad3f/Lab%202
+
 
 # Lab 2 Part 2
 

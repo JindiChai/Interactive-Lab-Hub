@@ -248,6 +248,9 @@ Also, are the usual walking times preset by the user? I feel like weekday and we
 
 (3) I really like the progression from sleeping to awake to excited as walk time approaches. One thing I would think about is what happens if the user forgets to press the button after completing a walk. Since the clock depends on manually logging each walk, it might be useful to show a reminder or make it easy to correct a missed walk. 
 
+(4) Your dog walking clock idea is really creative. Tying the display to your dog's behavior states instead of a literal hour minute readout is very creative. It's also grounded in something personal and real (your own routine with your dog), which makes it more meaningful.
+Since you mentioned uncertainty about whether the screen can show images/emojis vs. just text, it might help to do a quick screen capability test early so your concept doesn't have to change last-minute.
+
 
 ## Update your Lab Hub
 

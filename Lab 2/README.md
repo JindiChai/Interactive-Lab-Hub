@@ -282,6 +282,20 @@ Do take advantage of having done the previous iteration to refine and simplify y
 
 ** Insert any updates ideas, sketches, [Verplank diagrams](https://ccrma.stanford.edu/courses/250a-fall-2004/IDSketchbok.pdf))!, storyboards for your ideas **
 
+### Ideas
+
+After listening to our classmates’ comments and suggestions, we decided to keep improving our Dog Walk Clock. Based on our original demo, we added some new features to solve problems we noticed in the current design. Different dogs can have different walking routines. Some dogs may need several walks every day, while others may only need one or two. We added a customizable walk schedule, so users can change the clock settings through the computer. They can reduce the number of walks or set different walking times for weekdays and weekends based on their daily routine.
+
+We also added a speaker to the clock. When it reaches a scheduled walking time, the dog will make a barking sound to remind the owner that it is time for a walk. Compared with the silent visual reminder on the LED screen, the sound can work more clearly like an alarm. We also slightly changed the visual environment on the screen. The background color changes at different times of the day to represent changes in the environment. Finally, we added a missed-walk correction feature. If the user cannot walk the dog on time, or forgets to press the button after the walk, they can correct it later without affecting the rest of the clock.
+
+
+### Sketches & Storyboard
+
+### Verplank Diagram
+
+<img width="3292" height="1826" alt="vd 50" src="https://github.com/user-attachments/assets/f1bceb41-1f57-40fa-b1e5-e08ac10f9402" />
+
+
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 

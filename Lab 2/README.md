@@ -297,6 +297,9 @@ We also added a speaker to the clock. When it reaches a scheduled walking time, 
 
 ### Sketches & Storyboard
 
+<img width="2080" height="2538" alt="ss 51" src="https://github.com/user-attachments/assets/9ccf8696-2363-4292-8614-5ecabd7b691b" />
+
+
 ### Verplank Diagram
 
 <img width="3292" height="1826" alt="vd 50" src="https://github.com/user-attachments/assets/f1bceb41-1f57-40fa-b1e5-e08ac10f9402" />

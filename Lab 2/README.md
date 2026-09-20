@@ -268,7 +268,7 @@ Start small, pick just one element of your overall idea, just to show you have a
 
 https://github.com/user-attachments/assets/f18abc4a-c115-4b29-bef9-3047d9fdea37
 
-Code: dog_clock.py
+[Code](./dog_clock.py)
 
 
 
@@ -308,7 +308,7 @@ We also added a speaker to the clock. When it reaches a scheduled walking time, 
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
-**Code: Lab 2/dog_clock_v3.py**
+[Code](./dog_clock_v3.py)
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
@@ -318,6 +318,13 @@ We also added a speaker to the clock. When it reaches a scheduled walking time, 
 ** Demo Video  https://youtube.com/shorts/t_dNxQuSu40?feature=share **
 
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
+
+For this dog clock project, Jindi came up with the original idea for the project and designed the basic interactions based on this idea. After that, we discussed and designed the project together and improved and added more features. Based on our discussions, Jindi created the sketches, storyboard, and Verplank diagram, and revised them as the project developed. Yilin was mainly responsible for developing the Dog Walk Clock based on the feature descriptions and sketches. Finally, we worked together to film and edit the clock demo video.
+
+Special Thanks: We would like to thank Longan (Jindi’s dog) for being the inspiration behind this project, helping us test the demo, and appearing in our demo video! We also used Codex to assist us with the development and testing of the clock.
+
+<img width="200" alt="IMG_1448" src="https://github.com/user-attachments/assets/8f982bf6-eaab-4961-b6ce-479b04442d61" />
+
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab.  Make sure the page for the group turn in is linked to your personal Interactive Lab Hub page. 
 

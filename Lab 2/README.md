@@ -310,7 +310,10 @@ We also added a speaker to the clock. When it reaches a scheduled walking time, 
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+<img width="588" height="701" alt="SS2026-09-20 下午6 25 15" src="https://github.com/user-attachments/assets/886d4185-c149-400e-b815-ac752dce7fbd" />
 
+
+** Demo Video  https://youtube.com/shorts/t_dNxQuSu40?feature=share **
 As always, make sure you document contributions and ideas from others (and AI) explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab.  Make sure the page for the group turn in is linked to your personal Interactive Lab Hub page. 

@@ -308,7 +308,7 @@ We also added a speaker to the clock. When it reaches a scheduled walking time, 
 
 \*\*\***Put a copy of your code in your Lab 2 Github repo.**\*\*\*
 
-Code: dog_clock_v3.py
+**Code: Lab 2/dog_clock_v3.py**
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 

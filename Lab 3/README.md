@@ -111,6 +111,8 @@ The demo script also shows `--output-raw`, which streams audio to the speaker as
 
 \*\***Then answer: Is the same greeting, in these different voices, the same greeting? Describe one concrete way the voice changed what the utterance seemed to mean or who seemed to be speaking.**\*\*
 
+Although the three TTS engines deliver the same message, they create different feelings. I personally prefer Piper because its voice sounds more natural and pleasant. eSpeak sounds more robotic, which makes the greeting feel like a command from a machine. In contrast, Piper makes the same greeting feel more friendly and personal, almost like someone is actually talking to me. This shows how the choice of voice can affect the user's perception of a speech-enabled device.
+
 ## B. Speech to Text
 
 We use [faster-whisper](https://github.com/SYSTRAN/faster-whisper), a reimplementation of OpenAI's Whisper model that runs several times faster on CPU and does not require PyTorch. All processing happens on the Pi; nothing is sent to a server.

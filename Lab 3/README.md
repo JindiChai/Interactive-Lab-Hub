@@ -175,6 +175,28 @@ Speak, pause, and watch it transcribe. Now change the endpointing threshold — 
 
 \*\***Try both extremes, and something in between. Describe what each one feels like to talk to. Note specifically: at 0.2s, what kinds of normal speech get cut off? At 1.5s, what does the delay make the system seem like?**\*\*
 
+
+I tested three different silence thresholds: 0.2s, 0.8s, and 1.5s. I used the same sentence, "Can you remind me to walk my dog at seven tonight?", with a short pause before saying the time.
+
+<img width="657" height="251" alt="截屏2026-09-23 下午11 20 08" src="https://github.com/user-attachments/assets/c75c8778-6bfa-4abe-ac1d-09f80d08165a" />
+
+<img width="544" height="127" alt="截屏2026-09-23 下午11 19 01" src="https://github.com/user-attachments/assets/a2b2975e-220e-49fa-8e06-d88b658a270a" />
+
+| Silence Threshold | Observation                                                                                                    |
+| ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| 0.2s              | The system split my sentence into two separate utterances because of the pause.                                |
+| 0.8s              | The system captured my entire sentence without splitting it, although some words were transcribed incorrectly. |
+| 1.5s              | The system also captured my sentence as one utterance, but required a longer silence before processing it.     |
+
+
+Reflection:
+
+The 0.2s threshold was too sensitive to my natural pauses. When I stopped briefly to think about the time, the system treated it as the end of my sentence. This could be problematic for a conversational device because it might respond before the user finishes their request.
+
+The 0.8s threshold worked better for my speaking pattern because it allowed me to pause without splitting my sentence. The 1.5s threshold also captured my complete request, but it required a longer waiting period after I finished talking.
+
+I learned that choosing a silence threshold involves balancing responsiveness and allowing users enough time to express themselves. A shorter threshold can make the device respond faster but may interrupt users, while a longer threshold can accommodate natural pauses but make the interaction feel slower.
+
 There is no correct value. A system that takes drink orders and a system that listens to someone think out loud want very different thresholds, and the right one depends on what your users are doing with their pauses.
 
 ### The complete loop
@@ -184,6 +206,15 @@ There is no correct value. A system that takes drink orders and a system that li
 ```
 (.venv) $ python echo_bot.py
 ```
+
+**Echo Bot Test**
+
+<img width="667" height="121" alt="截屏2026-09-23 下午11 23 22" src="https://github.com/user-attachments/assets/e087f99c-cb83-4204-a581-46300521dcb5" />
+
+I also tested the complete interaction loop using echo_bot.py. The system successfully listened to my speech, transcribed it, and responded using Piper. The ASR process took 0.95 seconds, and Piper needed another 0.46 seconds to generate the first audio, resulting in a total reported gap of 1.41 seconds.
+
+However, when I said "Hi, my name is Jindi," the system recognized my name as "Cindy" and repeated the incorrect name back to me. This made me realize that speech recognition errors can directly affect the conversation, even when the system's response logic works correctly.
+
 
 ## D. Storyboard
 

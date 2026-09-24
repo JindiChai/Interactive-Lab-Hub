@@ -133,7 +133,7 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
 
-<img width="371" height="502" alt="截屏2026-09-23 下午10 57 14" src="https://github.com/user-attachments/assets/0f92d006-564a-4e8b-bf2c-a674800ba0f9" />
+<img width="371" height="502" alt="ss2026-09-23 下午10 57 14" src="https://github.com/user-attachments/assets/0f92d006-564a-4e8b-bf2c-a674800ba0f9" />
 
 | Model    | Transcription Time | Real-Time Factor | Result                      |
 | -------- | -----------------: | ---------------: | --------------------------- |
@@ -150,6 +150,10 @@ The tiny.en model was the fastest, with an RTF of 0.22x, while small.en took 6.1
 For an interactive speech-enabled device, I think a smaller model would be more suitable for simple conversations because faster responses can make the interaction feel more natural. However, a larger model might still be useful when the system needs to understand more complicated speech.
 
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
+
+<img width="481" height="175" alt="ss2026-09-23 下午11 06 26" src="https://github.com/user-attachments/assets/880bced2-1de3-46a1-bea3-f86a13af3a24" />
+
+I created a script using Piper to ask the user how many times they walk their dog every day. The device then records the user's spoken response. When I answered "three times," the tiny.en model successfully transcribed my response as "three times," with an RTF of 0.11x.
 
 ## C. Turn-taking: knowing when someone has stopped talking
 

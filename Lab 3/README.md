@@ -133,6 +133,22 @@ Available sizes, smallest first: `tiny.en`, `base.en`, `small.en`, `medium.en`. 
 
 \*\***Record a few seconds of your own speech (`arecord -d 5 -f cd -c 1 -r 16000 test.wav`) and transcribe it with at least two model sizes. Report the real-time factor for each. At what point does the accuracy improvement stop being worth the delay, for a system that has to answer you?**\*\*
 
+<img width="371" height="502" alt="截屏2026-09-23 下午10 57 14" src="https://github.com/user-attachments/assets/0f92d006-564a-4e8b-bf2c-a674800ba0f9" />
+
+| Model    | Transcription Time | Real-Time Factor | Result                      |
+| -------- | -----------------: | ---------------: | --------------------------- |
+| tiny.en  |              1.10s |            0.22x | Correctly recognized Jindi  |
+| base.en  |              2.16s |            0.43x | Recognized Jindi as Jin Dea |
+| small.en |              6.16s |            1.23x | Correctly recognized Jindi  |
+
+
+
+I recorded a five-second audio clip of myself speaking and tested it with three different Whisper models. Both tiny.en and small.en correctly recognized my name, while base.en transcribed it as "Jin Dea."
+
+The tiny.en model was the fastest, with an RTF of 0.22x, while small.en took 6.16 seconds and had an RTF of 1.23x. In this experiment, the larger model did not provide a noticeable improvement in accuracy compared to tiny.en, but it required much more processing time.
+
+For an interactive speech-enabled device, I think a smaller model would be more suitable for simple conversations because faster responses can make the interaction feel more natural. However, a larger model might still be useful when the system needs to understand more complicated speech.
+
 \*\***Write your own script that verbally asks for a numerical input (a phone number, zipcode, number of pets) and records the answer the respondent provides.**\*\* Numbers are a good stress test — transcription systems make characteristic errors on digit strings, and you will want to know what they are before you design around them.
 
 ## C. Turn-taking: knowing when someone has stopped talking

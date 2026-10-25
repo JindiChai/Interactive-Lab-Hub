@@ -1,9 +1,8 @@
 # Observant Systems: Overnight Sensation
 
-Jindi Chai
-**Team:**
+**Team:** 
 
-**Members:** Full Name (netid, github-handle), ...
+**Members:** Jindi Chai
 
 **Project name:**
 

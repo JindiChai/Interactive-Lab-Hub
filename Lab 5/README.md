@@ -368,6 +368,17 @@ Use storyboards and/or [Verplank diagrams](https://ccrma.stanford.edu/courses/25
 
 \*\*\***Insert ideas, sketches, Verplank diagrams and storyboards for your night-time interaction here.**\*\*\*
 
+Project Idea — Pet Night Diary
+
+For Part 2, I want to design a Pet Night Diary that helps pet owners understand their dog's nighttime activity without having to check on them during the night. The device uses a Raspberry Pi, Mini PiTFT, and a webcam to observe the dog's resting area and record when the dog is detected.
+
+Before going to bed, the owner can press a button to start monitoring. During the night, the device uses YOLO to check for the dog at regular intervals and records the detection results. The next morning, the owner can view a short summary of when their dog was detected near its resting area. I want the interaction to be simple and quiet, so it can work in the background without disturbing the owner or the dog.
+
+**Sketch**
+
+<img width="695" height="395" alt="sketch" src="https://github.com/user-attachments/assets/cf7b1e15-c053-405e-9912-ba8f663ee7a0" />
+
+
 ## Prep for Part 2
 
 1. Look at and give feedback on the Part F storyboards.

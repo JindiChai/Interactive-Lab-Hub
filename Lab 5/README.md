@@ -427,6 +427,12 @@ The hand-off: the person tells the device what to watch tonight, and the device 
 
 \*\*\***Describe the interaction before.**\*\*\*
 
+### Pet Night Diary — implemented hand-off
+
+The prototype is implemented in [pet_night_diary.py](pet_night_diary.py). The Mini PiTFT shows “Pet Night Diary / Press A to start.” Button A creates a unique session log. After the first successful camera/YOLO sample, the display confirms readiness and switches its backlight off after three seconds. Repeated A presses do not start another session. Holding B for 1.5 seconds stops monitoring. A terminal fallback supports development without the PiTFT.
+
+Wiring follows my Lab 2 implementation: CS GPIO5, DC GPIO25, backlight GPIO22, and active-low buttons GPIO23/24. See the [setup, testing and overnight guide](PET_NIGHT_DIARY.md) for exact commands.
+
 ## Part H. 
 ### Incorporate the observant system
 
@@ -441,6 +447,14 @@ Fake a night first: run it for thirty seconds while you walk around, stop it, an
 
 \*\*\***Screenshots or videos of the running system.**\*\*\*
 
+### Pet Night Diary — implemented observer
+
+[pet_detector.py](pet_detector.py) uses the existing YOLO26 Nano NCNN model with COCO dog class 16, sampling approximately every ten seconds without a GUI. A configurable resting-area ROI counts a detection only when at least half of its bounding box overlaps the region. Three consecutive valid matching observations confirm a state; errors reset confirmation to unknown. Logs separate raw observations from confirmed states and record errors, recovery, gaps and heartbeats. The prototype stores metadata, not photos or continuous video, and runs locally inside tmux.
+
+Labels describe observations: `dog_detected_in_area`, `dog_not_detected_in_area`, and `unknown`. They do not establish whether the dog slept or physically left. This refines the earlier storyboard's “leaves and returns” language.
+
+**Validation status:** automated software tests and a short synthetic session are provided; real Pi camera/button testing and a genuine overnight recording remain to be completed. Simulated logs are explicitly labeled and are not experimental measurements. Add actual screenshots/video and test findings here after running on the Pi.
+
 ## Part I. 
 ### Design the interaction after
 
@@ -451,6 +465,14 @@ The reveal. The night produced a log; the morning turns it into something a half
 ```
 
 Make it yours: show the report on the Mini PiTFT, read it aloud with Piper from Lab 3, plot the night as a timeline, or ask for JSON (`--json`, Part D) and move a servo. Whatever you pick, make sure it is honest about a night in which nothing happened.
+
+### Pet Night Diary — implemented morning reveal
+
+[pet_morning.py](pet_morning.py) calculates timestamps, counts and supported detection/non-detection intervals in Python. It excludes unknown data, pending transitions and long gaps from duration estimates. The display shows the last confirmed detection, approximate supported durations and data quality; A advances pages and a long B press exits. Full intervals are included in the saved JSON report.
+
+Local Qwen (`qwen3.5:0.8b`, thinking disabled) receives verified statistics and is constrained to three exact factual sentences. Changed wording or invalid output triggers the deterministic Python fallback, as does an unavailable Ollama service. An empty or interrupted log is reported as insufficient/incomplete data rather than invented activity. Detection does not establish sleep; non-detection does not prove absence.
+
+**AI acknowledgement:** OpenAI ChatGPT/Codex assisted with implementation, automated tests and documentation, based on my storyboard and existing lab examples. Hardware testing and real overnight findings must be added after the actual experiment. See [PET_NIGHT_DIARY.md](PET_NIGHT_DIARY.md) for limitations and reproducible commands.
 
 ## Final documentation
 

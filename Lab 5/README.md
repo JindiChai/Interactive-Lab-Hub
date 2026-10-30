@@ -383,11 +383,42 @@ Before going to bed, the owner can press a button to start monitoring. During th
 
 1. Look at and give feedback on the Part F storyboards.
    **Put the feedback for your ideas here.**
+
+The current sketch clearly shows the physical setup and makes it easy to understand that the webcam observes a fixed resting area. The Raspberry Pi and Mini PiTFT are positioned close to the dog’s bed, and the camera is directed toward the pet rather than toward a human sleeping area. This supports privacy and makes the purpose of the system clear.
+
+However, the sketch currently explains what the system looks like more clearly than how the interaction unfolds over time. The revised storyboard should show three stages: the owner starting the system before bed, the device observing and logging changes during the night, and the owner receiving one short summary in the morning.
+
+The bedtime hand-off should also include clear acknowledgement. After the owner presses the button, the Mini PiTFT could briefly display “Monitoring started” and then dim so that it does not disturb the dog or owner.
+
+A possible technical problem is that YOLO may fail to detect the dog for a single frame, especially in low light. This could create a false event in which the log says that the dog left and immediately returned. To reduce this error, the system should confirm the same reading across several samples before recording a change.
+
+The morning report should remain simple and honest. Instead of displaying the entire log, it should answer one useful question, such as whether the dog left the resting area, how many times it left, and the longest amount of time it was away. If nothing happened, the report should clearly state that no unusual activity was detected.
+
+
 2. [Update your Lab Hub](prep.md#get-the-latest-content) to get the latest content for Part 2.
 3. Decide where the device will spend the night and who else lives there. Get their OK before the first run.
 4. Revise your storyboard with the feedback and with what you learned in Part E about where the pipeline breaks.
 
 \*\*\***Post your revised storyboard here.**\*\*\*
+
+### Device Placement and Consent
+
+The device will spend the night beside the dog’s resting area in the living room. The webcam will be positioned so that its field of view includes only the dog bed and the surrounding floor, not any human sleeping area.
+
+Everyone who lives in the space will be informed about the experiment before the first overnight run, and monitoring will begin only after they agree. All detection results will remain on the Raspberry Pi. The system will sample one frame every ten seconds, and any temporary images will be deleted after the demonstration.
+
+
+### Revisions After Feedback
+
+Based on the feedback, we revised the original setup sketch into a six-panel storyboard that shows the complete interaction over time. The first two panels show the owner positioning the camera, pressing the start button, and receiving a “Monitoring started” acknowledgement. The middle panels show the system sampling the resting area every ten seconds and recording when the dog leaves and returns. The final panels show the owner checking the device in the morning and receiving one short summary.
+
+Part E showed that a single missed detection can create a false event and that Qwen may summarize a log incorrectly. To reduce this problem, the revised design will require the same detection result to appear in several consecutive samples before recording a change. The morning report will be generated from the confirmed events and will remain short and honest about uncertainty.
+
+
+### Revised Storyboard
+
+<img width="780" height="440" alt="截屏2026-10-30 15 54 39" src="https://github.com/user-attachments/assets/d9c23a9c-8c86-4605-99a0-e6282c304a79" />
+
 
 ## Part G. 
 ### Design the interaction before
